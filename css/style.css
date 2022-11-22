@@ -142,8 +142,8 @@ main .hero__section .right__column {
   height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
-  -webkit-animation: slideInTop ease-in 1s;
-          animation: slideInTop ease-in 1s;
+  -webkit-animation: slideInBottom ease-in 1s;
+          animation: slideInBottom ease-in 1s;
 }
 
 main .hero__section .right__column-header {
@@ -193,7 +193,7 @@ main .footer__contents {
       -ms-flex-pack: center;
           justify-content: center;
   gap: 25px;
-  margin: 80px 0;
+  margin: 80px 0 40px 0;
 }
 
 main .footer__contents article {
@@ -238,7 +238,7 @@ main .footer__contents article div a:hover {
 
 main .footer__contents article div p {
   font-size: 1.6rem;
-  padding-top: 10px;
+  padding-top: 10px 0;
   color: #5d5f79;
   line-height: 1.6;
   -webkit-animation: slideInRight s ease-in-out;
@@ -248,6 +248,8 @@ main .footer__contents article div p {
 .attribution {
   font-size: 1.5rem;
   text-align: center;
+  -webkit-animation: slideInRight 1.6s ease-in-out;
+          animation: slideInRight 1.6s ease-in-out;
 }
 
 .attribution a {
@@ -375,6 +377,9 @@ main .footer__contents article div p {
     cursor: pointer;
     padding-bottom: 44px;
     font-size: 2.5rem;
+  }
+  .header-section .navbar .nav-list li:hover {
+    color: inherit;
   }
   .header-section .navbar .menu-active {
     display: block;
